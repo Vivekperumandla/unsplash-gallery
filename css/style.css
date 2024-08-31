@@ -71,6 +71,10 @@
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 #image-details {
   padding: 15px;
   color: #767676;
