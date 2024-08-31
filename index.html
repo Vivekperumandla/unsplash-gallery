@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="https://unsplash-assets.imgix.net/favicon/favicon.ico"
+    />
+    <title>Unsplash Gallery</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-3.6.0.min.js" defer></script>
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <div id="loading" class="spinner" style="display: none"></div>
+
+    <div id="gallery"></div>
+    <div style="display: none" id="image-modal" class="modal">
+      <span class="close">
+        <img class="close-icon" src="images/close.png" alt="close icon" />
+      </span>
+      <div>
+        <div class="modal-content">
+          <img id="modal-image" src="" alt="" />
+          <div id="image-details"></div>
+          <div class="button-section">
+            <button id="prev-button">Previous</button>
+            <button id="next-button">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
